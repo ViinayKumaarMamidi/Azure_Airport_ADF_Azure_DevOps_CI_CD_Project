@@ -2,6 +2,15 @@
 This repo contains details around Sample Airport data sourced in ADLS and leveraging ADF to transform the data and loading into ADLS and implementing ADF Pipeline in Dev and leveraging Azure DevOps CI/CD to deploy the pipeline to PROD using DevOps Release/Pipeline using ARM template method. Thanks
 
 
+**End to End Project Documentation:**
+
+https://deepwiki.com/ViinayKumaarMamidi/Azure_Airport_ADF_Azure_DevOps_CI_CD_Project
+
+
+https://deepwiki.com/badge-maker?url=https%3A%2F%2Fdeepwiki.com%2FViinayKumaarMamidi%2FAzure_Airport_ADF_Azure_DevOps_CI_CD_Project
+
+
+
 
 **High-Level Data Flow Process**
 
