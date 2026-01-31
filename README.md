@@ -3,6 +3,15 @@ This repo contains details around Sample Airport data sourced in ADLS and levera
 
 
 
+**High-Level Data Flow Process**
+
+Source sample files land in ADLS Gen2 (raw container)
+Azure Data Factory pipelines read raw data via Linked Services + Datasets
+Data transformation activities / Data Flows transform data
+Results are written into ADLS Gen2 (processed container)
+Azure DevOps CI/CD automates deploying the ADF ARM templates to Dev/Prod
+
+
 ### **Data Flow Architecture Diagram**
 
 The project follows a standard data engineering and DevOps pattern where data is transformed within Azure and deployed across environments using automation.
